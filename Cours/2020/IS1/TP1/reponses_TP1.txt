@@ -1,0 +1,74 @@
+Saglam Idil
+
+Exercice 2
+
+1- cal -d 2048-03
+2-cal -y
+3- cal -m 3 ou ncal -m 3 ou ncal -m mars ou cal -m mars ou ncal -m march ou cal -m march 
+4- ncal -d 2048-07 -3 
+5- ncal -e 2048
+
+Exercice 3
+
+/Users/macbook/Desktop/Tata/Toto/Turlu/Tutu
+
+Exercice 4
+
+ mkdir Cours
+ cd Cours
+ mkdir 2020
+ cd 2020
+ mkdir IP1
+ mkdir IS1 PF1
+ cd IS1
+ mkdir TP1
+ cd $HOME
+ cd Desktop
+ mkdir Perso
+ cd ..
+ cd desktop
+ mkdir Test
+ cd Test
+ touch titi
+ touch toto
+ 
+ou
+
+mkdir -p Cours/2020/IP1 Cours/2020/IS1/TP1 Cours/2020/PF1 Perso Test
+touch Test/titi Test/toto
+
+Exercice 5
+
+1- cd Test
+  mv toto grosminet
+  
+2- mv /Users/macbook/Downloads/arborescence.tar /Users/macbook/Desktop/Cours/2020/IS1/TP1/
+  mv /Users/macbook/reponses_TP1.txt /Users/macbook/Desktop/Cours/2020/IS1/TP1/
+3- mv ~/Desktop/Tata/ ~/Desktop/Test/
+  cd ~/Desktop/Test/
+  mv Tata Tonton
+Exercice 6
+ cd ~/Desktop/Test/Tonton/Titi
+ cp fifi loulou
+ cp fifi ~/Desktop/Test/Tonton/donald
+ cp fifi ~/Desktop/Test/Tonton/gontran
+ cat ~/Desktop/Test/Tonton/Titi/loulou ~/Desktop/Test/Tonton/donald ~/Desktop/Test/Tonton/gontran
+Exercice 7
+cd ~/Desktop/Test/Tonton/ && rm gontran
+ls ~/Desktop/Test/Tonton/
+rm -rf Toto
+Exercise 8
+tar -cvf archive_tp1.tar Cours Perso Test
+tar -tf ~/Desktop/archive_tp1.tar
+mv ~/Desktop/archive_tp1.tar ~/Desktop/Cours/2020/IS1/TP1/
+
+
+
+
+
+
+
+
+
+
+
