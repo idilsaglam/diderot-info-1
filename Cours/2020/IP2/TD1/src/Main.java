@@ -10,17 +10,9 @@ public class Main {
         b.poids -= 50;
     }
 
-    public static void description(Animal a){
-        System.out.println("Je m'appelle" + a.nom + ", Je suis un" + a.espece + " " + a.sexe + ", j'ai" + ""+a.jours + " jours et je pese" + a.poids + " kg.");
-    }
 
     // Exercice 7 yi yapmadim daha ona bakcam bir daha
 
-    public static void nourrir(Animal a){
-        if(a.faim > 1) {
-            a.faim = a.faim - 1;
-        }
-    }
 
     public static int lePlusGros(Animal[] tab){
         int max = Integer.MIN_VALUE;
@@ -32,8 +24,11 @@ public class Main {
         return max;
     }
 
-    //public static int reproduction(Animal a, Animal b){
+    public static Animal reproduction(Animal a, Animal b){
+        if((a.sexe != b.sexe) && (a.espece.equals(b.espece)) && (a.faim < 5 && b.faim < 5)){
 
+        }
+    }
 
 
 }
