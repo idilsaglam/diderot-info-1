@@ -6,13 +6,25 @@ public class Fruit {
         nom = n;
         poids = p;
     }
-    public void afficher(){
-        System.out.println("Ce fruit est un(e) " + this.nom +" et pèse " + this.poids* 1000 + " grammes");
-    }
-    public static Fruit hybridation(Fruit f1, Fruit f2){
-        String newName = f1.nom + f2.nom;
-        int newPoids = f1.poids + f2.poids;
-        return new Fruit(newName,newPoids);
+
+    public static void afficher(Fruit f) {
+        System.out.println(
+                String.format(
+                        "Ce fruit est un(e) %s et pèse %d grammes",
+                        f.nom,
+                        f.poids * 1000
+                )
+        );
     }
 
+    public static Fruit hybridation(Fruit f1, Fruit f2) {
+        String newName = f1.nom + f2.nom;
+        int newPoids = f1.poids + f2.poids;
+        return new Fruit(newName, newPoids);
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Name: %s Poids: %d\n", this.nom, this.poids);
+    }
 }
