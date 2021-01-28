@@ -11,20 +11,14 @@ public class Zoo {
 
     }
 
-    public boolean ajouteEnclos(Animal animal){
-        for (int i = 0; i<contenu.length; i++) {
-            if (contenu[i].ajouteAnimal(animal)) {
-                return true;
-            }
-        }
-        return false;
-    }
+    //public static boolean ajouteEnclos(Animal animal,Zoo zoo){
 
-    public void nourrir(){
-        for (int i = 0; i < contenu.length; i++) {
-            for (int j = 0; j < contenu[i].tabAnimal.length; j++) {
-                if ( contenu[i].tabAnimal[j].faim > 5) {
-                    contenu[i].tabAnimal[j].nourrir();
+
+    public static void nourrir(Zoo zoo){
+        for (int i = 0; i < zoo.contenu.length; i++) {
+            for (int j = 0; j < zoo.contenu[i].tabAnimal.length; j++) {
+                if ( zoo.contenu[i].tabAnimal[j].faim > 5) {
+                    zoo.contenu[i].tabAnimal[j].nourrir();
                 }
             }
         }
