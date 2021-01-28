@@ -14,26 +14,32 @@ Animal(String nom, char sexe, int jours,int poids, String espece,int faim){
     this.espece = espece;
     this.faim = (faim % 11);
 }
-
-
-    public void description(){
-        String article;
-        String sex;
-        if(this.sexe == 'm'){
+    public static void description(Animal animal){
+    String article,sex;
+        if(animal.sexe == 'm'){
             sex = "male";
             article = "";
         }else{
             sex = "femelle";
             article = "e";
         }
-        System.out.println("Je m'appelle" + this.nom + ", Je suis un" +article+ " "+ this.espece + " " + sex + ", j'ai" + ""+this.jours*365 + " jours et je pese" + this.poids + " kg.");
+        System.out.println("Je m'appelle " + animal.nom + ", Je suis un" +article+ " "+ animal.espece + " " + sex + ", j'ai " + ""+animal.jours + " jours et je pese " + animal.poids + " kg.");
     }
 
-    public void nourrir(){
-        if(this.faim >= 1) {
-            this.faim = this.faim - 1;
+    public static void descriptionBis(Animal animal) {
+        String article, sex;
+        if (animal.sexe == 'm') {
+            sex = "male";
+            article = "";
+            System.out.println("Je m'appelle " + animal.nom + ", Je suis un" + article + " " + animal.espece + " " + sex + ", j'ai " + "" + animal.jours / 365 + " ans " + animal.jours % 365 + " jours " + " et je pese" + animal.poids + " kg.");
+        }
+    }
+
+    public static void nourrir(Animal animal){
+        if(animal.faim >= 1) {
+            animal.faim = animal.faim - 1;
         }else{
-            this.poids += this.poids/10;
+            animal.poids += animal.poids/10;
         }
     }
 }
