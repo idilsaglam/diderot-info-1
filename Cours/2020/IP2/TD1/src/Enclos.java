@@ -6,13 +6,13 @@ public class Enclos {
         this.population = population;
     }
 
-    public boolean ajouteAnimal(Animal a){
-        if (tabAnimal.length > population) {
-            tabAnimal[population] = a;
-            population++;
+    public static boolean ajouteAnimal(Animal a,Enclos enclos){
+        if (enclos.tabAnimal.length > enclos.population) {
+            enclos.tabAnimal[enclos.population] = a;
+            enclos.population++;
             return true;
         }
-        return false:
+        return false;
     }
 
 }
