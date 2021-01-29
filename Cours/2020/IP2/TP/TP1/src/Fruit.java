@@ -8,12 +8,10 @@ public class Fruit {
     }
 
     public static void afficher(Fruit f) {
-        System.out.println(
-                String.format(
-                        "Ce fruit est un(e) %s et pèse %d grammes",
-                        f.nom,
-                        f.poids * 1000
-                )
+        System.out.printf(
+                "Ce fruit est un(e) %s et pèse %d grammes\n",
+                f.nom,
+                f.poids * 1000
         );
     }
 
@@ -25,6 +23,7 @@ public class Fruit {
 
     @Override
     public String toString() {
+        // Pour afficher proprement,nous devons redéfinir la méthode toString() héritée de la classe java.lang.Object
         return String.format("Name: %s Poids: %d\n", this.nom, this.poids);
     }
 }
