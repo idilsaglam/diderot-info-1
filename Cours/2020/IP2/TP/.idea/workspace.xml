@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0ca663e-ed0c-4db4-af9d-4eb3c2b18c20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TD1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/TD1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TD1/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/TD1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TD1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/TD1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TD1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/TD1/TD1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TD1/TD1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/TD1/TD1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../TD1/TD1.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/TD1/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TD1/src/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/TD1/src/Enclos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TD1/src/Enclos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/TD1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TD1/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../IP2/TP/TP1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/TP1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TP1.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +25,6 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,6 +34,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611427903771</updated>
       <workItem from="1611427904922" duration="28000" />
+      <workItem from="1611913557663" duration="4000" />
     </task>
     <servers />
   </component>
@@ -76,5 +51,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
