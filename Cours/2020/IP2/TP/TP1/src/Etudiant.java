@@ -21,6 +21,7 @@ public class Etudiant {
 
         public static String mention(Etudiant etudiant) {
             String note = "";
+
             if (etudiant.note < 0 || etudiant.note > 20) {
                 note = "Note Invalide";
             }
