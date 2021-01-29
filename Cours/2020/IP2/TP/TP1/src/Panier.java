@@ -20,6 +20,7 @@ public class Panier {
     Panier() {
         this.tabFruit = new Fruit[0];
     }
+
     public static void afficher(Panier p) {
         for (int i = 0; i < p.tabFruit.length; i++) {
             Fruit.afficher(p.tabFruit[i]);
