@@ -42,12 +42,15 @@ public class Zoo {
     public void unJourPasseAuZoo(){
         for (int i = 0; i < this.contenu.length; i++) {
             for (int j = 0; j < this.contenu[i].tabAnimal.length; j++) {
+                this.contenu[i].tabAnimal[j].age++;
                 this.contenu[i].tabAnimal[j].faim += 2;
                 if(this.contenu[i].tabAnimal[j].faim >= 10){
                     tueAnimal(this.contenu[i].tabAnimal[i]);
                 }
             }
+            this.contenu[i].reproduction();
         }
+
     }
 
 }
