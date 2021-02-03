@@ -112,4 +112,17 @@ public class Animal {
         }
         return null;
     }
+
+    @Override
+    public String toString() {
+        return String.format(
+                "Animal:\tnom: %s\tâge: %d\tpoids: %d\tsexe: %c\tespèce: %s\tfaim: %d",
+                this.nom,
+                this.age,
+                this.poids,
+                this.sexe,
+                this.espece,
+                this.faim
+        );
+    }
 }
