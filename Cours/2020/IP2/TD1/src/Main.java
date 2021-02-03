@@ -32,10 +32,10 @@ public class Main {
          ****************
          */
         // Créer un zèbre mâle de 5 ans, pesant 300 kg s’appelant Marti
-        Animal Marti = new Animal("Marti",'m',5*365,300,"zebre");
+        Animal marti = new Animal("Marti",'m',5*365,300,"zebre");
 
         // Hippopotame femelle de 7 ans, d’une tonne et demie s’appelant Gloria
-        Animal Gloria = new Animal("Gloria",'f',7*365,1500,"hippopotame");
+        Animal gloria = new Animal("Gloria",'f',7*365,1500,"hippopotame");
 
         /*
          ****************
@@ -43,7 +43,7 @@ public class Main {
          ****************
          */
         // Pour diminiuer le poids de Gloria de 50 kg
-        Gloria.poids -= 50;
+        gloria.poids -= 50;
 
         /*
          ****************
