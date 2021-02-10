@@ -1,0 +1,32 @@
+
+table, th, td {
+border: 1px solid black;
+text-align: center;
+}
+
+div.spaced-container{
+    text-align: center;
+    font-weight: bold;
+}
+
+div.spaced-container legend {
+    margin-bottom: 5%;
+}
+
+td {
+  width: 50%;  
+}
+
+#first th{
+    color: blue;
+    border: 1px solid blue;
+}
+
+div.centered-container {
+    text-align: center;
+}
+
+#last td{
+    color:red;
+    border-color: red;
+}
